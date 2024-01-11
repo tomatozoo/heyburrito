@@ -14,10 +14,10 @@ services:
       - "80:3333"
       - "8080:8080"
     environment:
-      - BOT_NAME=heywaffle
+      - BOT_NAME=heyineeji
       - DATABASE_DRIVER=mongodb
       - MONGODB_URL=mongodb://mongodb:27017
-      - MONGODB_DATABASE=heywaffle
+      - MONGODB_DATABASE=heyineeji
       - SLACK_API_TOKEN=SeeDocumentation
       - "SLACK_EMOJI_INC=:waffle:"
       - SLACK_DAILY_CAP=5
